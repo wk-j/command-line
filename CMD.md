@@ -8,4 +8,9 @@ dotnet run --project src/CMD/CMD.csproj  -- --file-option ./CMD.md --int-option 
 dotnet add src/Dragon package --source https://dotnet.myget.org/F/system-commandline/api/v3/index.json System.CommandLine.DragonFruit -v 0.1.0-alpha-63529-01
 
 dotnet run --project src/Dragon/Dragon.csproj -- --int-option 20 --file-option CMD.md
+
+ dotnet run --project src/Dragon/Dragon.csproj  -- -h
+ dotnet run --project src/CMD/CMD.csproj  -- -h
+
+ dotnet tool install dotnet-suggest -g --add-source https://dotnet.myget.org/F/system-commandline/api/v3/index.json --version "1.*"
 ```
