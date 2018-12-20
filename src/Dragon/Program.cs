@@ -4,6 +4,9 @@ using System.IO;
 namespace Dragon {
     class Program {
 
+        /// <summary>
+        /// My App
+        /// </summary>
         /// <param name="intOption">An option whose argument is parsed as an int</param>
         /// <param name="boolOption">An option whose argument is parsed as a bool</param>
         /// <param name="fileOption">An option whose argument is parsed as a FileInfo</param>
